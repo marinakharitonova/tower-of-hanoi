@@ -1,6 +1,7 @@
 # Tower of Hanoi
 This project is a [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) browser 
-game built with [React](https://react.dev/), [Styled Components](https://styled-components.com/),
+game built with [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/),
+[Styled Components](https://styled-components.com/),
 [React DnD](https://react-dnd.github.io/react-dnd/about).
 
 ![Application preview](./public/tower_of_hanoi_preview.png)
