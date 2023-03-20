@@ -25,10 +25,7 @@ function Tower({disks, id, onDrop, canDrop, canDrag}: TowerProps) {
         },
         canDrop: (item, monitor) => {
             return monitor.isOver() && canDrop(item as DiskType, id)
-        },
-        collect: (monitor) => ({
-            isOver: monitor.isOver(),
-        }),
+        }
     }), [canDrop, canDrag])
 
     return (

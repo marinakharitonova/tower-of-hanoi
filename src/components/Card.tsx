@@ -33,9 +33,9 @@ function Card() {
         return currentTower[0].size > disk.size
     }, [towers])
 
-    const canDrag = (tower: DiskType[], disk: DiskType): boolean => {
+    const canDrag = useCallback((tower: DiskType[], disk: DiskType): boolean => {
         return disk.color === tower[0].color && disk.size === tower[0].size
-    }
+    }, [])
 
     return (
         <StyledCard>

@@ -27,6 +27,7 @@ function Disk({color, size, canDrag}: DiskProps) {
         }),
     }), [canDrag])
 
+
     return (
         <StyledDisk ref={drag}
                     color={color}
