@@ -1,8 +1,8 @@
 import React, {ReactNode, useContext, useReducer} from "react";
 import {Action, appReducer, createInitialState, initialState, State} from "../reducers/appReducer";
 
-const StateContext = React.createContext<State>(initialState)
-const DispatchContext = React.createContext<React.Dispatch<Action>>(() => {
+export const StateContext = React.createContext<State>(initialState)
+export const DispatchContext = React.createContext<React.Dispatch<Action>>(() => {
 })
 
 type StateProviderProps = {

@@ -16,8 +16,8 @@ function Modal() {
 
     return (
         <>
-            <ModalLighter isOpen={isWin}/>
-            <StyledModal isOpen={isWin}>
+            <ModalLighter isOpen={isWin} data-testid="modal-lighter"/>
+            <StyledModal isOpen={isWin} data-testid="modal-window">
                 <ModalContent>
                     <ModalText>You won!</ModalText>
                     <img src={fireworkImg} alt="Firework" width={120}/>
